@@ -210,14 +210,14 @@ require_once "blocks/header.php";
         width: 100%;
         font-weight: 400;
         font-size: 17px;
-        color: #70c05b;
+        color: white;
         padding: 10px;
         text-align: center;
         border: 1px solid #70c05b;
         border-radius: 4px;
         cursor: pointer;
         transition: 0.2s;
-        margin-top: auto;
+        margin-top: 50px;
     }
 
     .card__add:hover {
