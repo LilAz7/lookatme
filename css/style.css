@@ -13,6 +13,7 @@ body {
     background: #ffffff;
     font-style: normal;
     text-align: center;
+    text-shadow: #707070 1px 0px 10px;
 }
 
 a {
@@ -127,7 +128,8 @@ header nav ul li.active::after {
 }
 
 header nav ul li:not(.active):not(.btn) a:hover {
-    border-bottom: 5px solid #DC7000;
+    text-shadow: #000000 1px 0px 20px;
+    transition: 0.3s;
 }
 
 header nav ul li.btn a,
@@ -147,7 +149,7 @@ header nav ul li.btn a:hover,
     background: none;
     border: none;
     font-size: 24px;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     position: absolute;
     top: 10px;
@@ -255,11 +257,12 @@ header nav ul li.btn a:hover,
 .feedback input[type="email"],
 .feedback input[type="submit"] {
     background-color: #ffffff; /* Цвет фона полей ввода */
-    border-color: #060000; /* Цвет границ полей ввода */
+    border-color: #000000; /* Цвет границ полей ввода */
     padding: 10px; /* Увеличение внутренних отступов полей ввода */
     font-size: 18px; /* Увеличение размера шрифта полей ввода */
     width: 100%; /* Растягиваем поля ввода на всю доступную ширину */
     box-sizing: border-box; /* Учитываем ширину границ и отступов внутри ширины поля */
+    border-radius: 5px; /* Закругляем углы кнопки */
 }
 
 .feedback button {
@@ -322,6 +325,10 @@ footer>p {
     text-align: center;
 }
 
+footer h1 {
+    font-size: 1em;
+    word-spacing: 5em;
+}
 .cards {
         display: grid;
         grid-template-columns: repeat(auto-fill, 225px);
@@ -455,7 +462,7 @@ footer>p {
         width: 100%;
         font-weight: 400;
         font-size: 17px;
-        color: #70c05b;
+        color: #ffffff;
         padding: 10px;
         text-align: center;
         border: 1px solid #70c05b;
@@ -463,12 +470,13 @@ footer>p {
         cursor: pointer;
         transition: 0.2s;
         margin-top: auto;
+        background-color: #70c05b;
     }
 
     .card__add:hover {
-        border: 1px solid #ff6633;
-        background-color: #ff6633;
-        color: #fff;
+        border: 1px solid #8dcf7d;
+        background-color: #8dcf7d;
+        color: white;
     }
 
     .search-form {
@@ -489,7 +497,7 @@ footer>p {
         padding: 10px 20px;
         font-size: 16px;
         border: none;
-        background-color: #007bff;
+        background-color: #000000;
         color: white;
         border-radius: 0 5px 5px 0;
         cursor: pointer;
@@ -497,5 +505,5 @@ footer>p {
     }
 
     .search-form input[type="submit"]:hover {
-        background-color: #0056b3;
+        background-color: #636363;
     }
