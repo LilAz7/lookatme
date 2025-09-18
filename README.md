@@ -6,7 +6,6 @@
 
 # Стек 
   FRONT: js, css
-  
   BACK: php
 
 
