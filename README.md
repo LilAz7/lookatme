@@ -5,7 +5,7 @@
 ---
 
 # Стек 
-  FRONT: js, css
+  FRONT: js, css /n
   BACK: php
 
 
